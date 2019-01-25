@@ -24,7 +24,7 @@ $(window).ready(function(){
     });
     
     //------------------------------COUNDOWN------------------------------
-    $('.coundown').countdown('2017/12/25 18:00:00')
+    $('.coundown').countdown('2021/12/25 18:00:00')
         .on('update.countdown', function(event) {
             var format = '%H<span>h</span>%M<span>m</span>%S<span>seg</span>';
             if(event.offset.days > 0) {
